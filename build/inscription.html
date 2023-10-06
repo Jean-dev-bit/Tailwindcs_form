@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <!-- Utilisez le lien complet pour la dernière version de Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-500">
+    <div class="container mx-auto px-4 py-12">
+        <!-- Contenu centré verticalement -->
+        <div class="sm:w-2/3 md:w-1/2 lg:w-1/3 mx-auto">
+            <h3 class="text-slate-950 font-serif font-bold text-xs mb-8 justify-center text-center">
+                Bienvenue sur MediLink BENIN, votre pharmacie à domicile. 
+                Renseignez vos informations ci-dessous pour vous inscrire afin de pouvoir profiter de nos services exclusifs. 👇👇👇
+            </h3>
+            <div class="bg-white p-8 rounded-lg shadow-lg">
+                <h2 class="text-xl font-extrabold mb-4 text-center">INSCRIPTION</h2>
+                <form>
+                    <!-- Utilisez une grille pour organiser les champs -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-600 font-extrabold">E-mail</label>
+                            <input type="email" id="email" name="email" class="border border-gray-300 p-2 w-full rounded-lg focus:outline-none focus:border-blue-400" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="lastname" class="block text-gray-600 font-extrabold">Nom</label>
+                            <input type="text" id="lastname" name="lastname" class="border border-gray-300 p-2 w-full rounded-lg focus:outline-none focus:border-blue-400" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-600 font-extrabold">Prénom(s)</label>
+                            <input type="text" id="name" name="name" class="border border-gray-300 p-2 w-full rounded-lg focus:outline-none focus:border-blue-400" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="password" class="block text-gray-600 font-extrabold">Mot de Passe</label>
+                            <input type="password" id="password" name="password" class="border border-gray-300 p-2 w-full rounded-lg focus:outline-none focus:border-blue-400" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="password" class="block text-gray-600 font-extrabold">Confirmation Mot de Passe</label>
+                            <input type="password" id="password" name="password" class="border border-gray-300 p-2 w-full rounded-lg focus:outline-none focus:border-blue-400" required>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-full font-extrabold hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300">S'ENREGISTRER</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
